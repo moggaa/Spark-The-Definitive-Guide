@@ -17,5 +17,13 @@
 
 4. hdfs 업로드
 ```shell
-    hdfs dfs -put structured-data/ /usr/ubuntu/
+    hdfs dfs -put structured-data/
+    
 ```
+
+5. pyspark 실행
+```shell
+    pyspark
+```
+
+6. 접속 (https://{ip}:10001)
