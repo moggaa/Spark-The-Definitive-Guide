@@ -6,12 +6,8 @@
     hadoop/sbin/start-dfs.sh
     hadoop/sbin/start-yarn.sh
 ```
-3. pyspark 실행
-```shell
-    pyspark
-```
 
-4. 실습 파일 clone
+3. 실습 파일 clone
 ```shell
     cd ~
     mkdir structured-api
@@ -19,3 +15,7 @@
     git clone https://github.com/moggaa/Spark-The-Definitive-Guide.git
 ```
 
+4. hdfs 업로드
+```shell
+    hdfs dfs -put structured-data/ /usr/ubuntu/
+```
